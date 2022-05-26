@@ -35,3 +35,7 @@ else{
 }
 document.write('<ifr'+'ame src="https://noob4cast.com/stream.php?player='+ embedded +'&live='+ fid +'" '+PlaySize +' width='+ v_width +' height=' + v_height + ' scrolling="no" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ifr'+'ame>') ;
 /**/
+
+
+  
+
