@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.pawan{
+width: 100%;
+padding: 0 5%;
+display: flex;
+flex-direction: column;
+height: 70vh;
+justify-content: space-between;
+}
+.pawanone{
+    padding: 5%;
+}
+
+html{
+    font-family: 'Abel', sans-serif !important;
+}
+
+iframe{    border-radius: 20px !important;}
+
+
+footer{
+    font-style: italic;
+  background: #00aced4a;
+  display: flex;
+  position:fixed;
+  width: 100%;
+  bottom: 0%;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 1.2rem;
+  padding: 1.2rem 1rem 1rem 1rem;
+}
+@media screen and (max-width: 964px) {
+footer{
+  position:relative;
+}
+}
+
+/* //social icons */
+ul.socialIcons {
+  padding: 0;
+  text-align: center;
+}
+
+.socialIcons li {
+  background-color: yellow;
+  list-style: none;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+.socialIcons li a {
+  display: block;
+  padding: 0.47em;
+  min-width: 2.285714em;
+    max-width: 1.28571429em;
+    height: 2.285714em;
+  white-space: nowrap;
+  line-height: 1.5em; /*it's working only when you write text with icon*/
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+}
+
+.socialIcons li i {
+  margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+  max-width: 200px;
+  padding-right: 1em;
+}
+
+.socialIcons .facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+}
+
+.socialIcons .twitter {
+  background-color: #00aced;
+  box-shadow: 0 0 16px #00aced;
+}
+
+.socialIcons .instagram {
+  background-color: #cd486b;
+  box-shadow: 0 0 16px #cd486b;
+}
+
+.socialIcons .linkedin {
+    background-color: #0077b5;
+    box-shadow: 0 0 16px #0077b5;
+}
+
+.socialIcons .github {
+  background-color: #666666;
+  box-shadow: 0 0 16px #666666;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
