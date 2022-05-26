@@ -22,7 +22,7 @@ var isMobile = {
         return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
-var embedded = "mobile";
+var embedded = "desktop";
 if (!isMobile.any()){
         embedded = "desktop";
 }
